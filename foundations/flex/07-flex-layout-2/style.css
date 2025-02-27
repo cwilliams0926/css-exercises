@@ -38,6 +38,10 @@ ul {
 
 .content {
   display: flex;
+}
+
+.right-content {
+  display: flex;
   flex: 1;
 }
 
