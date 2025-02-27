@@ -7,11 +7,19 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
 }
 
 .left-links,
@@ -30,6 +38,14 @@ ul {
 a {
   text-decoration: none;
   color: grey;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 img {
