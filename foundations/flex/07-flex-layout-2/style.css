@@ -26,9 +26,9 @@ ul {
   color: white;
   padding: 0px 16px;
   display: flex;
-  font-size: 30px;
+  font-size: 32px;
   align-items: center;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .footer {
@@ -46,7 +46,8 @@ ul {
   background: royalblue;
   box-sizing: border-box;
   padding: 16px;
-  font-weight: 700;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
 .content {
@@ -56,11 +57,16 @@ ul {
 
 .right-content {
   display: flex;
-  flex: 1;
+  gap: 16px;
+  padding: 48px;
+  flex-wrap: wrap;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  height: 200px;
+  width: 300px;
 }
